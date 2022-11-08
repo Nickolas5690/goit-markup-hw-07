@@ -13,7 +13,7 @@ $overlay-background-color: #212121;
 $modal-background-color: #ffffff;
 $hero-background-color: rgba(47, 48, 58, 0.8);
 $benefits-background-color: #f5f4fa;
-$work-background-color: rgba(47, 48, 58, 0.8);
+$our-work-background-color: rgba(47, 48, 58, 0.8);
 $team__section-background-color: #f5f4fa;
 $team__div-background-color: #ffffff;
 $footer-background-color: #2f303a;
@@ -51,6 +51,10 @@ body {
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .list {
     list-style: none;

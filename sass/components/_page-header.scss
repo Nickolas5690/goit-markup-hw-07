@@ -68,9 +68,15 @@ header {
     transition: $cubic-transition;
     &:hover {
         color: $hover-focus-button-color;
+        &>svg {
+            fill: $hover-focus-button-color;
+        }
     }
     &:focus {
         color: $hover-focus-button-color;
+        &>svg {
+            fill: $hover-focus-button-color;
+        }
     }
 }
 .header__e-mail {
