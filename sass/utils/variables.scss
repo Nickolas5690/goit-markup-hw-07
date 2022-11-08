@@ -2,13 +2,37 @@
 $main-text-color: #212121;
 $other-text-color: #757575;
 $title-text-color: #ffffff;
-$hover-text-color: #2196f3;
+$hover-focus-color: #2196f3;
 $span-color: #000;
+$footer-text: rgba(255, 255, 255, 0.6);
 
 // background-colors
-$hover-background-color: #2196f3;
+$hover-background-color: $hover-focus-color;
 $modal-background-color: #ffffff;
-$button-background-color: #2196f3;
+$button-background-color: $hover-focus-color;
 $hero-background-color: rgba(47, 48, 58, 0.8);
 $benefits-background-color: #f5f4fa;
 $footer-background-color: #2f303a;
+
+// fill-colors
+$header__icon: #757575;
+$hover-header__icon: $hover-focus-color;
+$modal__icon: #000;
+$active-modal__icon: $hover-focus-color;
+$input__svg: #212121;
+$focus-input__svg: $hover-focus-color;
+$social__icon: #afb1b8;
+$hover-social__icon: #ffffff;
+$claents__icon: #afb1b8;
+$focus-claents__icon: $hover-focus-color;
+$footer__icon: #ffffff;
+
+// border solid and colors
+$header-button: 1px solid #ececec;
+$modal-button: 1px solid rgba(0, 0, 0, 0.1);
+$modal-input: 1px solid rgba(33, 33, 33, 0.2);
+$modal-textarea: 1px solid rgba(33, 33, 33, 0.2);
+$hover-modal-input-textarea: 1px solid $hover-focus-color;
+$checked-checkbox-and-checkbox-icon: $hover-focus-color;
+$checkbox-icon: 2px solid #000000;
+$claents-link: 1px solid #afb1b8;
