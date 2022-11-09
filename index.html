@@ -56,11 +56,11 @@
       </header>
 
     <main class="hero">
-      <section class="hero-top-section">
+      <section class="hero__section">
         <div class="overlay">
-          <div class="container hero-div">
-          <h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу<br></h1>
-          <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+          <div class="hero__div container">
+          <h1 class="hero__title">Ефективні рішення для <br>вашого бізнесу<br></h1>
+          <button class="hero__btn" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </div>
       <div class="backdrop is-hidden" data-modal>
@@ -73,27 +73,27 @@
             <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
             <div class="modal__fields">              
             <label class="modal__label" for="name">Ім'я</label>
-            <input type="text" name="name" id="name">            
+            <input class="modal__input" type="text" name="name" id="name">            
               <svg class="input__svg">
                 <use href="./images/icons.svg#icon-person-black-18dp"></use>
               </svg>            
             </div>
             <div class="modal__fields">
               <label class="modal__label" for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel">
+            <input class="modal__input" type="tel" name="tel" id="tel">
             <svg class="input__svg">
               <use href="./images/icons.svg#icon-phone-black-18dp"></use>
             </svg>
           </div>
-            <div class="fields">
+            <div class="modal__fields">
               <label class="modal__label" for="email">Пошта</label>
-            <input type="email" name="email" id="email">
+            <input class="modal__input" type="email" name="email" id="email">
             <svg class="input__svg">
               <use href="./images/icons.svg#icon-email-black-18dp"></use>
             </svg>
           </div>         
             <label class="modal__label" for="comment">Коментар</label>
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введіть текст"></textarea>            
+            <textarea class="modal__textarea" name="comment" id="comment" cols="30" rows="10" placeholder="Введіть текст"></textarea>            
             <label class="checkbox__label">
               <input class="checkbox" type="checkbox" name="agreement">
               <span class="checkbox__icon"></span>
